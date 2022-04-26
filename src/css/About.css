@@ -1,0 +1,20 @@
+.about {
+  height: 200px;
+  /* background-color: #000; */
+  padding-top: 50px;
+  width: 100%;
+}
+.all_service {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+.service {
+  /* margin-right: 5%; */
+}
+.title {
+  margin-bottom: 10px;
+}
+.my_icon {
+  margin-right: 10px;
+}

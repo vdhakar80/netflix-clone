@@ -1,0 +1,30 @@
+.row_posters {
+  display: flex;
+  padding: 20px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+/* telling all browsers to hide scrollbar */
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+.row_poster:hover {
+  transform: scale(1.08);
+}
+
+.row_large_poster {
+  max-height: 250px;
+}
+
+.row_large_poster:hover {
+  transform: scale(1.1);
+}
